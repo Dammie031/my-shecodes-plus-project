@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/2822c47d78.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="all-body">
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-6">
+          <h5 class="title">Weather Forecast</h5>
+        </div>
+          <div class="col-6">
+            <form id="search-form">
+                
+                <input type="search" id="city-input" autocomplete="off" placeholder="Search city🔍">
+                <input type="submit" value="Enter">
+              </form>
+</div>
+</div>
+          <h6 id="current-date">
+            
+          </h6>
+         <p>
+           
+            <form>
+                <div class="row">
+                    <div class="col-6">
+            <div class="card" id="small-card">
+  <div class="card-body" >
+   
+   <span id="city-name"></span>
+    <br> <span class= "temp" id="temp"></span> <span class="units"><a href="#" id="celsius-link">°C</a> | <a href="#" id="fahrenheit-link">°F</a></span> <br> <span id= "description" > Partly Cloudy </span>
+
+</div>
+</div>
+</div>
+</form>
+
+ 
+<div class="col-6">
+         Humidity: <span id= "humidity"></span>% 
+<br>
+Wind: <span id= "wind"></span>km/h
+  
+         </p>
+        </div></div>
+             <div class="row">
+            <div class="col"> Saturday
+                <span class="days-list">
+                <ul>
+                    <li>
+                        Sunny
+                    </li>
+                    <li>
+                        ☀
+                    </li>
+                    <li>
+                        27°C
+                    </li>
+                </ul>
+            </div>
+            <div class="col">Sunday <ul>
+                    <li>
+                        Cloudy
+                    </li>
+                    <li>
+                        ☁
+                    </li>
+                    <li>
+                        25°C
+                    </li>
+                </ul></div>
+            <div class="col">Monday <ul>
+                    <li>
+                        Cloudy
+                    </li>
+                    <li>
+                        ☁
+                    </li>
+                    <li>
+                        27°C
+                    </li>
+                </ul></div>
+             <div class="col">Tuesday <ul>
+                    <li>
+                        Rainy
+                    </li>
+                    <li>
+                        🌧
+                    </li>
+                    <li>
+                        22°C
+                    </li>
+                </ul></div>
+              <div class="col">Wednesday <ul>
+                    <li>
+                        Sunny
+                    </li>
+                    <li>
+                        ☀
+                    </li>
+                    <li>
+                        27°C
+                    </li>
+                </ul></div>
+          </div>
+        </div>
+          </p>
+        </span>
+        
+
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

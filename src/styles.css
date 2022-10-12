@@ -1,0 +1,39 @@
+.title {
+    margin-top: 20px;
+  }
+  
+  #current-date {
+    margin-top: 30px;
+  }
+  .temp {
+    font-size: 30px;
+  }
+  .units {
+    position: relative;
+    top: -20px;
+  }
+  #celsius-link {
+    text-decoration: none;
+  }
+  #fahrenheit-link {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #small-card {
+    font-weight: bold;
+    margin-bottom: 50px;
+    border: 2px solid #8f94a1;
+  }
+  
+  .all-body {
+    border: 3px solid #8f94a1;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
