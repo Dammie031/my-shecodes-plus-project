@@ -36,4 +36,17 @@
     max-width: 600px;
     padding: 20px;
   }
+.link{
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}  
+small{
+  text-align: center;
+
+}
+.coder{
+  text-align: center;
+  margin-left: -300px;
   
+}
